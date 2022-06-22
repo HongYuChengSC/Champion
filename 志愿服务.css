@@ -1,0 +1,116 @@
+/* 设置全局属性 */
+body {
+  background-image: url(https://i.bmp.ovh/imgs/2022/06/21/2559295eb2d75cd2.webp);
+  background-size: cover;
+  font-size: small;
+  margin: 0px;
+}
+
+/* 设置页眉区属性 */
+#header {
+  background-image: url(https://s3.bmp.ovh/imgs/2022/06/21/499e811fdfcbd933.webp);
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-family: "华文行楷";
+  height: 120px;
+  text-align: center;
+  font-size: 170%;
+  padding: 6px;
+}
+
+/* 设置左边部分的属性 */
+div#container_1 div.inner div#container_1_1 {
+  width: 300px;
+  height: 480px;
+  background-color: rgba(139, 209, 247, 0.5);
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "楷体";
+  font-size: 18px;
+  padding: 15px;
+}
+
+/* 设置左边部分文本属性 */
+.感想 {
+  text-indent: 2em;
+  line-height: 1.2;
+}
+
+/* 设置中间部分的属性 */
+div#container_1 div.inner div#container_1_2 {
+  background-color: rgba(139, 209, 247, 0.5);
+  width: 370px;
+  height: 470px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "楷体";
+  text-align: center;
+}
+
+/* 设置志愿活动图片属性 */
+.志愿活动图 {
+  width: 350px;
+  height: 350px;
+}
+
+/* 设置右边部分的属性 */
+div#container_1 div.inner div#container_1_3 {
+  width: 410px;
+  height: 580px;
+  background-color: rgba(139, 209, 247, 0.5);
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: "楷体";
+}
+
+/* 设置右边部分一级标题属性 */
+.志愿活动 {
+  text-align: center;
+}
+
+/* 设置表格属性 */
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+  /* 合并边框 */
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+/* 设置单元格属性 */
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+/* 设置页脚区属性 */
+footer {
+  background-color: rgba(9, 131, 253, 0.6);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "华文琥珀";
+  font-size: 30px;
+  height: 40px;
+  position: absolute;
+  top: 760px;
+  width: 1213px;
+}
+
+/* 设置超链接元素属性 */
+a:link {
+  color: rgb(55, 0, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 设置超链接元素访问后的属性 */
+a:visited {
+  color: rgb(55, 0, 255);
+  font-weight: bold;
+}

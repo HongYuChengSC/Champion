@@ -1,0 +1,112 @@
+/* 设置全局属性 */
+body {
+  background-image: url(https://i.bmp.ovh/imgs/2022/06/21/e539d687316d6591.webp);
+  background-size: cover;
+  font-size: small;
+  margin: 0px;
+}
+
+/* 设置页眉区属性 */
+#header {
+  background-image: url(https://i.bmp.ovh/imgs/2022/06/21/d34a64fd7f7f93ef.webp);
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-family: "楷体";
+  height: 120px;
+  text-align: center;
+  font-size: 200%;
+  padding: 2px;
+}
+
+/* 设置左边部分的属性 */
+div#container_1 div.inner div#container_1_1 {
+  width: 500px;
+  height: 320px;
+  background-image: url(https://i.bmp.ovh/imgs/2022/06/21/1f63e6eec218469f.webp);
+  background-size: 100% 100%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: "华文细黑";
+  font-size: 22px;
+  color: rgb(246, 158, 43);
+  padding: 30px;
+  text-indent: 2em;
+}
+
+/* 设置右边部分的属性 */
+div#container_1 div.inner div#container_1_2 {
+  width: 500px;
+  height: 380px;
+  float: left;
+  margin-left: 95px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* 设置游戏图片的属性 */
+img.游戏 {
+  width: 480px;
+  height: 360px;
+}
+
+/* 设置表单属性 */
+form {
+  display: table;
+  padding: 10px;
+  border: thin dotted #7e7e7e;
+  background-color: #f5d5b1e4;
+  margin-left: 340px;
+  margin-top: 10px;
+}
+
+/* 设置表单二级标题的属性 */
+.test {
+  font-size: 30px;
+}
+
+/* 设置表单行的属性 */
+.tableRow {
+  /* 作为表格行显示 */
+  display: table-row;
+}
+
+/* 设置表单行内元素的属性 */
+.tableRow p {
+  display: table-cell;
+  vertical-align: top;
+  padding: 3px;
+  font-size: 18px;
+}
+
+/* 使表单文字右对齐 */
+.tableRow p:first-child {
+  text-align: right;
+}
+
+/* 设置页脚区属性 */
+footer {
+  background-color: rgba(241, 197, 146, 0.5);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "华文琥珀";
+  font-size: 30px;
+  height: 40px;
+  position: absolute;
+  top: 1145px;
+  width: 1213px;
+}
+
+/* 设置超链接元素属性 */
+a:link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 设置超链接元素访问后的属性 */
+a:visited {
+  color: black;
+  font-weight: bold;
+}

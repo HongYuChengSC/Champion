@@ -1,0 +1,190 @@
+/* 设置全局属性 */
+body {
+  /* 背景图片的引用 */
+  background-image: url(https://s3.bmp.ovh/imgs/2022/06/21/00a11714091c32e9.jpg);
+  /* 设置背景图片大小为覆盖全屏 */
+  background-size: 100% 100%;
+  /* 设置字体大小 */
+  font-size: small;
+  /* 设置外边距 */
+  margin: 0px;
+}
+
+/* 设置页眉区属性 */
+#header {
+  background-image: url(https://s3.bmp.ovh/imgs/2022/06/21/55975a75ce217da2.webp);
+  background-size: 100% 100%;
+  /* 字体加粗 */
+  font-weight: bold;
+  /* 设置字体类型 */
+  font-family: "华文行楷";
+  /* 设置字体为斜体 */
+  font-style: italic;
+  /* 设置字体颜色 */
+  color: rgb(85, 64, 249);
+  /* 设置页眉区高度 */
+  height: 120px;
+  /* 文本居中 */
+  text-align: center;
+  /* 设置字体大小为小号字体的2倍 */
+  font-size: 200%;
+  /* 设置内边距 */
+  padding: 4px;
+}
+
+/* 设置导航区属性 */
+#naver {
+  /* 背景透明度为0.7 */
+  background: rgba(255, 255, 255, 0.7);
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+}
+
+/* 设置inner类属性 */
+.inner {
+  /* 设置宽度 */
+  width: 1000px;
+  margin: 0px auto 0px auto;
+}
+
+/* 设置无序列表属性 */
+#naver ul {
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+#naver ul li {
+  /* 作为行内元素显示 */
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+/* 设置超链接元素属性 */
+#naver ul li a:link {
+  color: rgb(183, 41, 249);
+  font-weight: bold;
+  /* 取消下划线 */
+  text-decoration: none;
+}
+
+/* 设置超链接元素访问后的属性 */
+#naver ul li a:visited {
+  color: rgb(183, 41, 249);
+  font-weight: bold;
+}
+
+/* 设置"运动"字体属性 */
+#naver ul li a span.sport {
+  font-family: "黑体";
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* 设置"志愿服务"字体属性 */
+#naver ul li a span.volunteer {
+  font-family: "黑体";
+  font-size: 30px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+/* 设置"游戏"字体属性 */
+#naver ul li a span.game {
+  font-family: "黑体";
+  font-size: 30px;
+  padding-left: 150px;
+}
+
+/* 设置tableContainer容器属性 */
+#tableContainer {
+  /* 作为块级表格来显示 */
+  display: table;
+  /* 设置表格边框间距 */
+  border-spacing: 5px;
+}
+
+/* 设置家乡部分的属性 */
+#家乡 {
+  /* 作为表格单元格显示 */
+  display: table-cell;
+  background: rgba(245, 228, 228, 0.3);
+  width: 20%;
+  padding: 15px;
+  font-size: 15px;
+  font-family: "华文新魏";
+  font-weight: bold;
+}
+
+/* 设置家乡文本属性 */
+.hometown {
+  /* 首行缩进两个字符 */
+  text-indent: 2em;
+  /* 设置字体两端对齐 */
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  text-align-last: justify;
+}
+
+/* 设置个人简介部分的属性 */
+#个人简介 {
+  display: table-cell;
+  background: rgba(245, 228, 228, 0.3);
+  width: 50%;
+  font-size: 22px;
+  padding: 15px;
+  font-family: "华文新魏";
+  font-weight: bold;
+  /* 垂直对齐文本顶部 */
+  vertical-align: top;
+  /* 设置行高 */
+  line-height: 1.8;
+}
+
+/* 设置个人简介文本属性 */
+.myself {
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  text-align-last: justify;
+}
+
+/* 设置侧边栏属性 */
+aside {
+  display: table-cell;
+  background: rgba(245, 228, 228, 0.3);
+  width: 30%;
+  font-size: 16px;
+  padding: 15px;
+  vertical-align: top;
+  font-family: "华文新魏";
+  font-weight: bold;
+}
+
+/* 使四果汤图片居中 */
+.eat {
+  text-align: center;
+}
+
+/* 设置四果汤图片属性 */
+aside img.四果汤 {
+  width: 250px;
+  height: 200px;
+}
+
+/* 设置饮食文本属性 */
+.food {
+  text-indent: 2em;
+}
+
+/* 设置页脚区属性 */
+footer {
+  background: rgb(9, 131, 253, 0.5);
+  text-align: center;
+  padding-bottom: 18px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  margin-bottom: 10px;
+  font-size: 24px;
+  height: 42px;
+}

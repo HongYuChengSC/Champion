@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏专栏</title>
+    <!-- 引用游戏.css外部样式表 -->
+    <link rel="stylesheet" href="游戏.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>
+            洪宇铖的游戏天地
+        </h1>
+    </div>
+    <div id="container_1">
+        <div class="inner">
+            <div id="container_1_1">
+                <p>
+                    游戏作为一种良好的解压方式,已经成为越来越多的年轻人的解压办法之一。
+                    在课后时间,我也会偶尔打打游戏来放松一下自己。我玩过的游戏有2K21、古墓丽影以及人类一败涂地等游戏。
+                    随着技术的不断发展,现在的游戏做出来的效果越来越好,越来越多的游戏能够让人们身临其境的感受游戏环境,
+                    让人感觉仿佛自己就在现实生活中。下方有一个游戏爱好测评表,感兴趣的可以填一下表来知道自己到底喜欢哪种类型的游戏。
+                </p>
+            </div>
+            <div id="container_1_2">
+                <p><img src="images/地平线.jpg" alt="游戏" class="游戏"></p>
+            </div>
+        </div>
+    </div>
+    <!-- 创建表单 -->
+    <form action="https://store.epicgames.com/zh-CN/" method="post">
+        <h2 class="test">游戏爱好测评</h2>
+        <div class="tableRow">
+            <p>
+                姓名：
+            </p>
+            <p>
+                <!-- 规定input元素类型为文本字段,且必须填写 -->
+                <input type="text" name="name" value="" placeholder="请输入姓名" required>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                性别：
+            </p>
+            <p>
+                <!-- 规定input元素类型为单选按钮 -->
+                <input type="radio" name="sex" value="man" required> 男
+                <input type="radio" name="sex" value="woman" required> 女
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                年龄：
+            </p>
+            <p>
+                <input type="text" name="age" value="" placeholder="请输入年龄" required>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                最喜欢的游戏类型：
+            </p>
+            <p>
+                <!-- 创建下拉菜单框 -->
+                <select name="gameType" >
+                    <option value="单机游戏">单机游戏</option>
+                    <option value="联机游戏">联机游戏</option>
+                    <option value="第一人称射击游戏">第一人称射击游戏</option>
+                    <option value="角色扮演游戏">角色扮演游戏</option>
+                    <option value="开放世界游戏">开放世界游戏</option>
+                </select>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                最喜欢的游戏：
+            </p>
+            <p>
+                <input type="text" name="game" value="" required>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                是否购买过游戏：
+            </p>
+            <p>
+                <input type="radio" name="choice" value="" required> 是
+                <input type="radio" name="choice" value="" required>否
+            </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                对未来游戏的期待：
+            </p>
+            <p>
+                <!-- 定义多行文本输入控件,同时强制其高度为250px,宽度为350px -->
+                <textarea style="min-height: 250px;min-width: 350px;max-height: 250px; max-width: 350px;"
+                    name="expectation"></textarea>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p></p>
+            <!-- 提交按钮,将表单发送至服务器端 -->
+            <p> <input type="submit" value="提交"> </p>
+        </div>
+    </form>
+    <footer>
+        <a href="首页.html" title="点击返回个人首页">
+            <span>返回主页</span>
+    </footer>
+</body>
+
+</html>

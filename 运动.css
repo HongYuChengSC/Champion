@@ -1,0 +1,117 @@
+/* 设置全局属性 */
+body {
+  background-image: url(https://i.bmp.ovh/imgs/2022/06/20/e8eaf6d2369ff94c.jpg);
+  background-size: 100% 100%;
+  font-size: small;
+  margin: 0px;
+}
+
+/* 设置页眉区属性 */
+#header {
+  background-color: rgba(44, 25, 249, 0.7);
+  color: yellow;
+  font-weight: bold;
+  font-family: "华文行楷";
+  margin-top: 10px;
+  height: 130px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 0.01%;
+}
+
+/* 设置篮球图片属性 */
+img.篮球 {
+  width: 300px;
+  height: 250px;
+  margin-left: 15px;
+  margin-right: 495px;
+}
+
+/* 设置右边栏属性 */
+#curry {
+  /* 设置边框属性 */
+  border: 3px solid #ffee00;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  padding: 0px 20px 20px 20px;
+  margin-right: 20px;
+  line-height: 1;
+  /* 使该对象靠右浮动 */
+  float: right;
+}
+
+/* 设置右边栏一级标题属性 */
+.Stephen {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* 设置库里图片属性 */
+#curry img.库里 {
+  width: 200px;
+  height: 300px;
+}
+
+/* 设置右边栏文本属性 */
+.简介 {
+  text-indent: 2em;
+  font-family: "宋体";
+  font-weight: bold;
+  font-size: 15px;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  text-align-last: justify;
+}
+
+/* 设置container容器属性 */
+#container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgb(44, 25, 249);
+  width: 900px;
+  height: 350px;
+  margin-right: 50px;
+  float: right;
+}
+
+/* 设置容器中文本属性 */
+.感想 {
+  text-indent: 2em;
+  font-family: "宋体";
+  font-size: 20px;
+  color: rgb(3, 217, 255);
+}
+
+/* 设置球队图片属性 */
+img.球队 {
+  width: 710px;
+  height: 453px;
+  margin-top: 10px;
+}
+
+/* 设置页脚区属性 */
+#footer {
+  background-color: rgba(44, 25, 249, 0.7);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "华文琥珀";
+  font-size: 32px;
+  height: 40px;
+  /* 绝对定位 */
+  position: absolute;
+  top: 1238px;
+  width: 1213px;
+}
+
+/* 设置超链接元素属性 */
+a:link {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 设置超链接元素访问后的属性 */
+a:visited {
+  color: yellow;
+  font-weight: bold;
+}
